@@ -15,5 +15,5 @@ represents a simplicial complex with three vertices, three 1-cells, and one 2-ce
 ## Functions:
 
 List of implemented functions:
--reorderJSON(unorderedSimplex): returns Boolean
--validateJSON(unorderedSimplex): returns Dictionary
+- reorderJSON(unorderedSimplex): returns Boolean
+- validateJSON(unorderedSimplex): returns Dictionary
