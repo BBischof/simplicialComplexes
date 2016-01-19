@@ -29,3 +29,11 @@ def validateJSON(simplex):
 							return False
 	return True
 
+#ensures all simplices are sorted lists, useful for other functions.
+def reorderJSON(unorderedSimplex):
+	for dim in unorderedSimplex:
+		if dim > 0:
+			for j in range(len(unorderedSimplex[dim])):
+				unorderedSimplex[dim][j]=sorted(unorderedSimplex[dim][j])
+	return unorderedSimplex
+
